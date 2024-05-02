@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0
+}
+span,a,label{
+    display: inline-block
+}
+body{
+    height: 100vh;
+    background-image: url(favicon.jpeg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+img{
+    height: auto;
+    max-width: 100%;
+}
+.jersey-15-regular {
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+h1{
+    color: darkblue;
+    text-align: center;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 100;
+    font-size: 50px;
+}  
+p{
+    color: darkblue;
+    text-align: center;
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 100;
+    font-size: 30px;
+}  
+#section{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin: 70px;
+    
+}
+.radius{
+    width: 70%;
+    
+}
+.child{
+    width: 400px;
+    height: 400px;
+    transition: 0.9s ease-in-out;
+    background: transparent;
+    box-shadow: 0 8px 32px 0 rgba( 31, 38, 135, 0.37 );
+    backdrop-filter: blur( 7.5px );
+    -webkit-backdrop-filter: blur( 7.5px );
+    border-radius: 10px;
+    border: 1px solid rgba( 255, 255, 255, 0.18 );
+    transform: rotate(45deg);
+    animation: anime 10.9s ease-in-out infinite alternate; 
+}
+#inputfeild{
+    width: 20%;
+}
+label{
+    font-family: "Jersey 15", sans-serif;
+    font-weight: 100;
+    font-size: 36px;
+}
+input{
+    outline: none;
+}
+@keyframes anime {
+    0% {
+        transform: rotate(45deg);
+    }
+    100% {
+        transform: rotate(405deg);
+    }

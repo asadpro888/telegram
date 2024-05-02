@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ui glass & shadow library</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jersey+15&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="favicon.jpeg" type="image/x-icon">
+</head>
+<body>
+    <h1 class="h1">Glassphormism</h1>
+    <p class="paragraph">UI/UX glass & shadow library</p>
+    <section id="section">
+        <div class="radius">
+            <div class="child"></div>
+        </div>
+        <div id="inputfeild">
+            <label for="#">Color</label>
+            <input type="color" name="inp" id="input1" min="0.1" max="3.1" step="0.1">
+            <label for="#">Transparency</label>
+            <input type="color" name="inp" id="input2">
+            <label for="#">Radius</label>
+            <input type="range" name="inp" id="input3" >
+            <label for="#">Shadow</label>
+            <input type="range" name="inp" id="input4">
+            <label for="#">Blur</label>
+            <input type="range" name="inp" id="input5" >
+            <code class="code">
+                border-radius: 50px;
+                background: #ffffff;
+                box-shadow:  20px 20px 60px #d9d9d9,
+                            -20px -20px 60px #ffffff;
+            </code>
+        </div>
+    </section>
+    <script src="main.js"></script>
+</body>
+</html>
